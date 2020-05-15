@@ -1,0 +1,7 @@
+landing page
+
+w/ adoption processs, picture, and button for starting the adoption processs
+
+pet preview 
+
+w/ image, desc,name,gender,age,breed, story

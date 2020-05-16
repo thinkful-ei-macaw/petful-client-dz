@@ -1,18 +1,18 @@
 import React, {Component} from 'react';
-import {Router} from 'react-router-dom';
+import {Route} from 'react-router-dom';
 import './App.css';
 import LandingPage from './components/LandingPage';
-import CatPreview from'./components/CatPreview';
-import DogPreview from'./components/DogPreview';
+import CatPreview from'./components/AdoptCat';
+import DogPreview from './components/AdoptDog';
 
 
 
-class App extends Componenet{
+class App extends React.Component{
 
   render(){
   return (
     <div className="App">
-    <Route exact path={'/'} component={LandingPage} />
+    <Route exact path={'/'} component={LandingPage}/>
     <Route path={"/catPreview"} component={CatPreview}/>
     <Route path={"/dogPreview"} component={DogPreview}/>
 
